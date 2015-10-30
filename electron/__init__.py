@@ -57,7 +57,7 @@ class App(object):
                       self.path,
                       self.name,
                       "--platform=%s" % platform,
-                      "--version=%s" % self.electron_version
+                      "--version=%s" % self.electron_version,
                       "--arch=%s" % arch
                      ]
         if overwrite:
