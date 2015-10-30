@@ -2,7 +2,7 @@
 import os
 from setuptools import setup
 
-from cordova import __version__
+from electron import __version__
 
 README = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
@@ -33,5 +33,5 @@ setup(
         'Topic :: Software Development :: Localization',
         'Topic :: Utilities',
     ],
-    keywords=['python', 'electron'  , 'phonegap', 'cordova-cli']
+    keywords=['python', 'electron'  , 'electron-packager', 'electron-app']
 )
