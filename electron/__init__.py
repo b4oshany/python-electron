@@ -34,7 +34,7 @@ class App(object):
                 shutil.make_archive("%s/%s" % (electron_path, f),
                                     archive_type, folder)
 
-    def build(self, platform, overwrite=False, asar=False, output=None, arch="ia32"):
+    def build(self, platform, overwrite=True, asar=True, output=None, arch="ia32"):
         """Build the Electron application.
 
         Arguments:
