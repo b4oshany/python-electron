@@ -14,13 +14,13 @@ Key concepts
 Usage
 ===============================================
 
-.. code-block:: python
+Example::
+
    import electron
 
    application = electron.App(
        APPLICATION_NAME,
        APPLICATION_FOLDER
    )
-
    application.build('android') # or any installed platform
    application.archive('ios') # or any installed platform
