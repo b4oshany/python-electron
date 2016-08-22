@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import
-__version__ = '0.1'
+__version__ = '1.0.0'
 
 import os
 import re
@@ -15,7 +15,7 @@ class App(object):
     path = None
     name = None
     debug = False
-    electron_version = "0.30.6"
+    electron_version = __version__
 
 
     # We need to initialize the application with the path of the root
